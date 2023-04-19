@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${NUM:0:5}.${NUM:-2}"|tr " " "\n"
+printf "%.2f" $NUM | sort
